@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-sans: 'DM Sans', sans-serif;
+    --font-display: 'Outfit', sans-serif;
+
+    /* Base Dark Theme - Professional & Clean */
+    --background: 240 10% 4%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 6%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 6%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 5% 16%;
+    --muted-foreground: 240 5% 65%;
+
+    --accent: 240 4% 16%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5% 16%;
+    --input: 240 5% 16%;
+    --ring: 240 5% 65%;
+
+    --radius: 1rem;
+
+    /* Thermostat Mode Colors */
+    --mode-heat: 24 95% 53%;     /* #f97316 - Orange 500 */
+    --mode-cool: 189 94% 43%;    /* #06b6d4 - Cyan 500 */
+    --mode-auto: 271 91% 65%;    /* #a855f7 - Purple 500 */
+    --mode-off: 240 5% 65%;      /* #a1a1aa - Zinc 400 */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-primary/30;
+    font-family: var(--font-sans);
+    /* Prevent pull-to-refresh on mobile for an app-like feel */
+    overscroll-behavior-y: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply tracking-tight;
+  }
+}
+
+@layer utilities {
+  /* Custom utility to hide scrollbar but keep functionality */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Glassmorphism utilities */
+  .glass-panel {
+    @apply bg-white/[0.03] backdrop-blur-2xl border border-white/[0.08] shadow-2xl;
+  }
+  
+  .glass-button {
+    @apply bg-white/[0.05] hover:bg-white/[0.1] active:bg-white/[0.02] 
+           border border-white/[0.05] hover:border-white/[0.15]
+           transition-all duration-300 backdrop-blur-md;
+  }
+}
+
+/* Custom Range Slider Styling for the App */
+input[type=range].thermostat-slider {
+  -webkit-appearance: none;
+  @apply w-full h-2 rounded-full bg-white/10 outline-none;
+}
+
+input[type=range].thermostat-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  @apply w-8 h-8 rounded-full bg-white shadow-lg cursor-pointer border-4 transition-transform hover:scale-110 active:scale-95;
+  border-color: var(--slider-color, #fff);
+}
+
+input[type=range].thermostat-slider::-moz-range-thumb {
+  @apply w-8 h-8 rounded-full bg-white shadow-lg cursor-pointer border-4 transition-transform hover:scale-110 active:scale-95;
+  border-color: var(--slider-color, #fff);
+}
