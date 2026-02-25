@@ -29,13 +29,14 @@ export function Controls({ systemMode, fanMode, onSystemModeChange, onFanModeCha
       {/* System Mode Group */}
       <div className="space-y-3">
         <h3 className="text-sm font-medium text-white/50 uppercase tracking-widest pl-1">System</h3>
-        <div className="grid grid-cols-4 gap-2 p-1.5 glass-panel rounded-2xl">
+        <div data-testid="control-system-mode" className="grid grid-cols-4 gap-2 p-1.5 glass-panel rounded-2xl">
           {systemModes.map((mode) => {
             const isActive = systemMode === mode.id;
             const Icon = mode.icon;
             return (
               <button
                 key={mode.id}
+                data-testid={`button-mode-${mode.id}`}
                 onClick={() => onSystemModeChange(mode.id)}
                 className={cn(
                   "relative flex flex-col items-center justify-center py-3 rounded-xl transition-all duration-300",
@@ -65,13 +66,14 @@ export function Controls({ systemMode, fanMode, onSystemModeChange, onFanModeCha
       {/* Fan Mode Group */}
       <div className="space-y-3">
         <h3 className="text-sm font-medium text-white/50 uppercase tracking-widest pl-1">Fan</h3>
-        <div className="grid grid-cols-2 gap-2 p-1.5 glass-panel rounded-2xl">
+        <div data-testid="control-fan-mode" className="grid grid-cols-2 gap-2 p-1.5 glass-panel rounded-2xl">
           {fanModes.map((mode) => {
             const isActive = fanMode === mode.id;
             const Icon = mode.icon;
             return (
               <button
                 key={mode.id}
+                data-testid={`button-fan-${mode.id}`}
                 onClick={() => onFanModeChange(mode.id)}
                 className={cn(
                   "relative flex items-center justify-center gap-3 py-3 rounded-xl transition-all duration-300",

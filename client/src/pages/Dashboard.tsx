@@ -54,7 +54,7 @@ export default function Dashboard() {
   };
 
   return (
-    <div className="min-h-screen relative overflow-hidden bg-background">
+    <div data-testid="dashboard" className="min-h-screen relative overflow-hidden bg-background">
       
       {/* Ambient Top Glow */}
       <div className="absolute top-0 inset-x-0 h-64 bg-gradient-to-b from-white/5 to-transparent pointer-events-none" />
@@ -72,8 +72,8 @@ export default function Dashboard() {
               <MapPin size={18} />
             </div>
             <div>
-              <h1 className="font-display font-medium leading-none">{thermostat.name}</h1>
-              <span className="text-xs text-white/40 flex items-center gap-1 mt-1">
+              <h1 data-testid="text-thermostat-name" className="font-display font-medium leading-none">{thermostat.name}</h1>
+              <span data-testid="status-online" className="text-xs text-white/40 flex items-center gap-1 mt-1">
                 <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span> Online
               </span>
             </div>
@@ -117,7 +117,7 @@ export default function Dashboard() {
               <Droplets size={18} className="text-blue-400" />
               <div className="flex flex-col">
                 <span className="text-xs text-white/50 font-medium uppercase tracking-wider">Humidity</span>
-                <span className="text-sm font-semibold text-white">{thermostat.currentHumidity}%</span>
+                <span data-testid="text-humidity" className="text-sm font-semibold text-white">{thermostat.currentHumidity}%</span>
               </div>
             </div>
           </motion.div>

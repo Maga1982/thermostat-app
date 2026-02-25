@@ -127,7 +127,7 @@ export function ThermostatRing({ currentTemp, targetTemp, mode, onTargetTempChan
             transition={{ duration: 0.5 }}
           >
             {/* Mode Icon */}
-            <div className="mb-2 text-white/50 flex items-center gap-2 text-sm font-medium uppercase tracking-wider">
+            <div data-testid="text-system-mode" className="mb-2 text-white/50 flex items-center gap-2 text-sm font-medium uppercase tracking-wider">
               {mode === 'heat' && <Flame size={16} style={{ color: modeColor }} />}
               {mode === 'cool' && <Snowflake size={16} style={{ color: modeColor }} />}
               {mode === 'auto' && <Leaf size={16} style={{ color: modeColor }} />}
@@ -137,7 +137,7 @@ export function ThermostatRing({ currentTemp, targetTemp, mode, onTargetTempChan
 
             {/* Huge Target Temp */}
             <div className="flex items-start">
-              <span className={cn(
+              <span data-testid="text-target-temp" className={cn(
                 "font-display font-light text-white tracking-tighter leading-none",
                 isOn ? "text-8xl" : "text-7xl text-white/30"
               )}>
@@ -149,7 +149,7 @@ export function ThermostatRing({ currentTemp, targetTemp, mode, onTargetTempChan
             {/* Current Temp Context */}
             <div className="mt-4 flex flex-col items-center">
               <span className="text-white/40 text-sm font-medium">Indoor</span>
-              <span className="text-white/80 font-display text-xl">{currentTemp}°</span>
+              <span data-testid="text-current-temp" className="text-white/80 font-display text-xl">{currentTemp}°</span>
             </div>
           </motion.div>
         </div>
@@ -161,6 +161,7 @@ export function ThermostatRing({ currentTemp, targetTemp, mode, onTargetTempChan
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               onClick={() => handleTempChange(localTarget - 1)}
+              data-testid="button-decrease-temp"
               className="absolute left-4 bottom-12 w-14 h-14 rounded-full glass-panel flex items-center justify-center text-white/70 hover:text-white shadow-xl z-20"
             >
               <Minus size={24} />
@@ -169,6 +170,7 @@ export function ThermostatRing({ currentTemp, targetTemp, mode, onTargetTempChan
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               onClick={() => handleTempChange(localTarget + 1)}
+              data-testid="button-increase-temp"
               className="absolute right-4 bottom-12 w-14 h-14 rounded-full glass-panel flex items-center justify-center text-white/70 hover:text-white shadow-xl z-20"
             >
               <Plus size={24} />
@@ -181,6 +183,7 @@ export function ThermostatRing({ currentTemp, targetTemp, mode, onTargetTempChan
       {isOn && (
         <div className="w-full mt-10 px-8" style={{ '--slider-color': modeColor } as React.CSSProperties}>
           <input 
+            data-testid="input-temp-slider"
             type="range" 
             min={minTemp} 
             max={maxTemp} 

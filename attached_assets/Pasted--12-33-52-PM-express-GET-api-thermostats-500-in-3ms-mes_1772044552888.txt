@@ -1,0 +1,100 @@
+}
+12:33:52 PM [express] GET /api/thermostats 500 in 3ms :: {"message":"Failed to parse private key: Error: Invalid PEM formatted message."}
+Internal Server Error: FirebaseAppError: Failed to parse private key: Error: Invalid PEM formatted message.
+    at new ServiceAccount (/Users/lakshmi/thermostat-app/node_modules/firebase-admin/lib/app/credential-internal.js:182:19)
+    at new ServiceAccountCredential (/Users/lakshmi/thermostat-app/node_modules/firebase-admin/lib/app/credential-internal.js:118:15)
+    at Object.cert (/Users/lakshmi/thermostat-app/node_modules/firebase-admin/lib/app/credential-factory.js:105:54)
+    at initFirebase (/Users/lakshmi/thermostat-app/server/firebase.ts:18:36)
+    at getDb (/Users/lakshmi/thermostat-app/server/firebase.ts:26:11)
+    at FirebaseStorage.getThermostats (/Users/lakshmi/thermostat-app/server/storage.ts:28:28)
+    at <anonymous> (/Users/lakshmi/thermostat-app/server/routes.ts:15:30)
+    at Layer.handleRequest (/Users/lakshmi/thermostat-app/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/lakshmi/thermostat-app/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/lakshmi/thermostat-app/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/lakshmi/thermostat-app/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/lakshmi/thermostat-app/node_modules/router/lib/layer.js:152:17)
+    at /Users/lakshmi/thermostat-app/node_modules/router/index.js:295:15
+    at processParams (/Users/lakshmi/thermostat-app/node_modules/router/index.js:582:12)
+    at next (/Users/lakshmi/thermostat-app/node_modules/router/index.js:291:5)
+    at <anonymous> (/Users/lakshmi/thermostat-app/server/index.ts:60:3)
+    at Layer.handleRequest (/Users/lakshmi/thermostat-app/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/lakshmi/thermostat-app/node_modules/router/index.js:342:13)
+    at /Users/lakshmi/thermostat-app/node_modules/router/index.js:297:9
+    at processParams (/Users/lakshmi/thermostat-app/node_modules/router/index.js:582:12)
+    at next (/Users/lakshmi/thermostat-app/node_modules/router/index.js:291:5)
+    at read (/Users/lakshmi/thermostat-app/node_modules/body-parser/lib/read.js:53:5)
+    at urlencodedParser (/Users/lakshmi/thermostat-app/node_modules/body-parser/lib/types/urlencoded.js:57:5)
+    at Layer.handleRequest (/Users/lakshmi/thermostat-app/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/lakshmi/thermostat-app/node_modules/router/index.js:342:13)
+    at /Users/lakshmi/thermostat-app/node_modules/router/index.js:297:9
+    at processParams (/Users/lakshmi/thermostat-app/node_modules/router/index.js:582:12)
+    at next (/Users/lakshmi/thermostat-app/node_modules/router/index.js:291:5)
+    at read (/Users/lakshmi/thermostat-app/node_modules/body-parser/lib/read.js:53:5)
+    at jsonParser (/Users/lakshmi/thermostat-app/node_modules/body-parser/lib/types/json.js:88:5)
+    at Layer.handleRequest (/Users/lakshmi/thermostat-app/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/lakshmi/thermostat-app/node_modules/router/index.js:342:13)
+    at /Users/lakshmi/thermostat-app/node_modules/router/index.js:297:9
+    at processParams (/Users/lakshmi/thermostat-app/node_modules/router/index.js:582:12)
+    at next (/Users/lakshmi/thermostat-app/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/lakshmi/thermostat-app/node_modules/router/index.js:186:3)
+    at Function.handle (/Users/lakshmi/thermostat-app/node_modules/express/lib/application.js:177:15)
+    at Server.app (/Users/lakshmi/thermostat-app/node_modules/express/lib/express.js:38:9)
+    at Server.emit (node:events:524:28)
+    at parserOnIncoming (node:_http_server:1141:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:118:17) {
+  errorInfo: {
+    code: 'app/invalid-credential',
+    message: 'Failed to parse private key: Error: Invalid PEM formatted message.'
+  },
+  codePrefix: 'app'
+}
+12:35:18 PM [express] GET /api/thermostats 500 in 1ms :: {"message":"Failed to parse private key: Error: Invalid PEM formatted message."}
+Internal Server Error: FirebaseAppError: Failed to parse private key: Error: Invalid PEM formatted message.
+    at new ServiceAccount (/Users/lakshmi/thermostat-app/node_modules/firebase-admin/lib/app/credential-internal.js:182:19)
+    at new ServiceAccountCredential (/Users/lakshmi/thermostat-app/node_modules/firebase-admin/lib/app/credential-internal.js:118:15)
+    at Object.cert (/Users/lakshmi/thermostat-app/node_modules/firebase-admin/lib/app/credential-factory.js:105:54)
+    at initFirebase (/Users/lakshmi/thermostat-app/server/firebase.ts:18:36)
+    at getDb (/Users/lakshmi/thermostat-app/server/firebase.ts:26:11)
+    at FirebaseStorage.getThermostats (/Users/lakshmi/thermostat-app/server/storage.ts:28:28)
+    at <anonymous> (/Users/lakshmi/thermostat-app/server/routes.ts:15:30)
+    at Layer.handleRequest (/Users/lakshmi/thermostat-app/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/lakshmi/thermostat-app/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/lakshmi/thermostat-app/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/lakshmi/thermostat-app/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/lakshmi/thermostat-app/node_modules/router/lib/layer.js:152:17)
+    at /Users/lakshmi/thermostat-app/node_modules/router/index.js:295:15
+    at processParams (/Users/lakshmi/thermostat-app/node_modules/router/index.js:582:12)
+    at next (/Users/lakshmi/thermostat-app/node_modules/router/index.js:291:5)
+    at <anonymous> (/Users/lakshmi/thermostat-app/server/index.ts:60:3)
+    at Layer.handleRequest (/Users/lakshmi/thermostat-app/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/lakshmi/thermostat-app/node_modules/router/index.js:342:13)
+    at /Users/lakshmi/thermostat-app/node_modules/router/index.js:297:9
+    at processParams (/Users/lakshmi/thermostat-app/node_modules/router/index.js:582:12)
+    at next (/Users/lakshmi/thermostat-app/node_modules/router/index.js:291:5)
+    at read (/Users/lakshmi/thermostat-app/node_modules/body-parser/lib/read.js:53:5)
+    at urlencodedParser (/Users/lakshmi/thermostat-app/node_modules/body-parser/lib/types/urlencoded.js:57:5)
+    at Layer.handleRequest (/Users/lakshmi/thermostat-app/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/lakshmi/thermostat-app/node_modules/router/index.js:342:13)
+    at /Users/lakshmi/thermostat-app/node_modules/router/index.js:297:9
+    at processParams (/Users/lakshmi/thermostat-app/node_modules/router/index.js:582:12)
+    at next (/Users/lakshmi/thermostat-app/node_modules/router/index.js:291:5)
+    at read (/Users/lakshmi/thermostat-app/node_modules/body-parser/lib/read.js:53:5)
+    at jsonParser (/Users/lakshmi/thermostat-app/node_modules/body-parser/lib/types/json.js:88:5)
+    at Layer.handleRequest (/Users/lakshmi/thermostat-app/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/lakshmi/thermostat-app/node_modules/router/index.js:342:13)
+    at /Users/lakshmi/thermostat-app/node_modules/router/index.js:297:9
+    at processParams (/Users/lakshmi/thermostat-app/node_modules/router/index.js:582:12)
+    at next (/Users/lakshmi/thermostat-app/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/lakshmi/thermostat-app/node_modules/router/index.js:186:3)
+    at Function.handle (/Users/lakshmi/thermostat-app/node_modules/express/lib/application.js:177:15)
+    at Server.app (/Users/lakshmi/thermostat-app/node_modules/express/lib/express.js:38:9)
+    at Server.emit (node:events:524:28)
+    at parserOnIncoming (node:_http_server:1141:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:118:17) {
+  errorInfo: {
+    code: 'app/invalid-credential',
+    message: 'Failed to parse private key: Error: Invalid PEM formatted message.'
+  },
+  codePrefix: 'app'
+}
+12:35:22 PM [express] GET /api/thermostats 500 in 2ms :: {"message":"Failed to parse private key: Error: Invalid PEM formatted message."}
