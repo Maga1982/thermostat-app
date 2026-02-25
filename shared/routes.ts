@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { insertThermostatSchema, thermostats } from './schema';
+import { insertThermostatSchema } from './schema';
 
 export const errorSchemas = {
   validation: z.object({
@@ -20,14 +20,14 @@ export const api = {
       method: 'GET' as const,
       path: '/api/thermostats' as const,
       responses: {
-        200: z.array(z.custom<typeof thermostats.$inferSelect>()),
+        200: z.array(insertThermostatSchema),
       },
     },
     get: {
       method: 'GET' as const,
       path: '/api/thermostats/:id' as const,
       responses: {
-        200: z.custom<typeof thermostats.$inferSelect>(),
+        200: insertThermostatSchema,
         404: errorSchemas.notFound,
       },
     },
@@ -36,7 +36,7 @@ export const api = {
       path: '/api/thermostats/:id' as const,
       input: insertThermostatSchema.partial(),
       responses: {
-        200: z.custom<typeof thermostats.$inferSelect>(),
+        200: insertThermostatSchema,
         400: errorSchemas.validation,
         404: errorSchemas.notFound,
       },
@@ -57,4 +57,3 @@ export function buildUrl(path: string, params?: Record<string, string | number>)
 }
 
 export type ThermostatUpdateInput = z.infer<typeof api.thermostats.update.input>;
-export type ThermostatListResponse = z.infer<typeof api.thermostats.list.responses[200]>;
