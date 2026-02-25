@@ -1,4 +1,4 @@
-import { db } from "./firebase";
+import { getDb } from "./firebase";
 import type { Thermostat, InsertThermostat, UpdateThermostatRequest } from "@shared/schema";
 
 const COLLECTION = "thermostats";
@@ -25,17 +25,18 @@ export interface IStorage {
 
 export class FirebaseStorage implements IStorage {
   async getThermostats(): Promise<Thermostat[]> {
-    const snapshot = await db.collection(COLLECTION).get();
+    const snapshot = await getDb().collection(COLLECTION).get();
     return snapshot.docs.map((doc) => docToThermostat(doc.id, doc.data()));
   }
 
   async getThermostat(id: number): Promise<Thermostat | undefined> {
-    const doc = await db.collection(COLLECTION).doc(String(id)).get();
+    const doc = await getDb().collection(COLLECTION).doc(String(id)).get();
     if (!doc.exists) return undefined;
     return docToThermostat(doc.id, doc.data()!);
   }
 
   async createThermostat(thermostat: InsertThermostat): Promise<Thermostat> {
+    const db = getDb();
     const snapshot = await db.collection(COLLECTION).get();
     const newId = snapshot.size + 1;
     const data = {
@@ -47,7 +48,7 @@ export class FirebaseStorage implements IStorage {
   }
 
   async updateThermostat(id: number, updates: UpdateThermostatRequest): Promise<Thermostat> {
-    const ref = db.collection(COLLECTION).doc(String(id));
+    const ref = getDb().collection(COLLECTION).doc(String(id));
     const updateData = { ...updates, lastUpdated: new Date() };
     await ref.update(updateData);
     const updated = await ref.get();
