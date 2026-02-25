@@ -24,7 +24,13 @@ export function useThermostat() {
       }
       return api.thermostats.list.responses[200].parse(await res.json());
     },
-    select: (data) => data[0] // Select the first thermostat for the dashboard
+    select: (data) => data[0], // Select the first thermostat for the dashboard
+
+    // Poll the API every 5 seconds so the app automatically reflects
+    // any changes the physical device reports (e.g. current temperature updates).
+    // If the device sends PATCH /api/thermostats/1 with a new currentTemp,
+    // the app will pick it up within 5 seconds without any manual refresh.
+    refetchInterval: 5000,
   });
 }
 
