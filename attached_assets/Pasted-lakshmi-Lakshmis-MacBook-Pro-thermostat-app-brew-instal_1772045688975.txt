@@ -1,0 +1,131 @@
+lakshmi@Lakshmis-MacBook-Pro thermostat-app % brew install node@20
+✔︎ JSON API formula.jws.json                          Downloaded   31.9MB/ 31.9MB
+✔︎ JSON API cask.jws.json                             Downloaded   15.3MB/ 15.3MB
+Warning: You are using macOS 12.
+We (and Apple) do not provide support for this old version.
+You may have better luck with MacPorts which supports older versions of macOS:
+  https://www.macports.org
+
+This is a Tier 3 configuration:
+  https://docs.brew.sh/Support-Tiers#tier-3
+You can report Tier 3 unrelated issues to Homebrew/* repositories!
+Read the above document before opening any issues or PRs.
+
+==> Fetching downloads for: node@20
+Warning: node@20 has been deprecated because it is not supported upstream! It will be disabled on 2026-10-28.
+✔︎ API Source node@20.rb                              Verified      4.4KB/  4.4KB
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/20880a05e5d7560b0b3578b9612617959debbde6f7fdd0664d2e1bfa7d571c18--cmake.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/f46ae2f50cdecaba400bc8a98f6d5971d31f7a800231fdf82d964ee20c498cd1--brotli.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/a7486586fe3f159135de8c9b8ffa91dba35daded767f366bcf6740cc8ba54766--c-ares.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/d1ee158739c80666104dd9a8388251e25b6dd855dbfb719a45eaf7c7807cd240--icu4c@78.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/7129b1385bbed4c3844976184f7f737f49a44f83f934d204248a9feed0de1a07--pkgconf.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/8be610056c38076b18bafe52472b087cba13a48cd76a06d8940078325ddcf296--libnghttp2.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/62f4a941666012b3d030d7067cfe3799b48cfeec066a4cc586c7097137c9b52d--mpdecimal.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/399b8d9e017c11c0c96a7ef29e2084f44ab5ec069c1f8a7c413bd1d350023268--openssl@3.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/caf0ac6813569e3d7551522c02d47c9d7976ec2f21f573c9012a23da77635798--readline.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/6e59d6cd818435682f99df86d268c6bc8ce8851b5041f892b65e06f2611828ab--sqlite.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/d5be4510d02c462de444dfb8678c8bf198121639d063464551804efabe5a4973--xz.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/f879770e02047a00b5f5b0106c79f6ce26c725ec15855da18ce4f6aed7bd19a2--zstd.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/b96c1726bba40ff2c29bb9937454d86f6969eafb8ffeb30092a98767d366282a--lzip.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/48e6729f1db8d4a1afcddfc44154cb167504cf581cd82344d86f13c33bb0796c--expat.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/3ff47464cb7fa48259c679077057eb29df8ef8d65818ef55235b438ea35f2081--python@3.14.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/0354fb932703124241f98b210e264094c75e71117ccd0d1bc82d02bb0bcc0306--sphinx-doc.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/d7273abf8c861034064b55396c86b31ca8735c487e8e11472b4d3b7e49681d1e--libuv.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/b51e425
+Already downloaded: /Users/lakshmi/Library/Caches/Homebrew/downloads/e026f95cc9d801f71dc8a6951feaf3f9c7c179a4473e6579481d9cadb96cfef8--python@3.13.rb
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+✔︎ API Source cmake.rb                                Verified      3.4KB/  3.4KB
+✔︎ Patch 6347854fa279cda0682c72dffbb402a0ce29ba51.pat Verified      4.4KB/  4.4KB
+✔︎ Formula cmake (4.2.3)                              Verified     12.3MB/ 12.3MB
+✔︎ API Source brotli.rb                               Verified      2.1KB/  2.1KB
+✔︎ Formula brotli (1.2.0)                             Verified    646.3KB/646.3KB
+✔︎ API Source c-ares.rb                               Verified      1.9KB/  1.9KB
+✔︎ Formula c-ares (1.34.6)                            Verified      1.0MB/  1.0MB
+✔︎ API Source icu4c@78.rb                             Verified      2.3KB/  2.3KB
+✔︎ Formula icu4c@78 (78.2)                            Verified     28.0MB/ 28.0MB
+✔︎ API Source pkgconf.rb                              Verified      4.2KB/  4.2KB
+✔︎ Formula pkgconf (2.5.1)                            Verified    328.1KB/328.1KB
+✔︎ API Source libnghttp2.rb                           Verified      2.6KB/  2.6KB
+✔︎ Formula libnghttp2 (1.68.0)                        Verified      2.6MB/  2.6MB
+✔︎ Bottle Manifest ca-certificates (2025-12-02)       Downloaded    2.0KB/  2.0KB
+✔︎ Bottle ca-certificates (2025-12-02)                Downloaded  131.8KB/131.8KB
+✔︎ Bottle Manifest certifi (2026.1.4)                 Downloaded    2.2KB/  2.2KB
+✔︎ Bottle certifi (2026.1.4)                          Downloaded    5.7KB/  5.7KB
+✔︎ API Source mpdecimal.rb                            Verified      2.7KB/  2.7KB
+✔︎ Formula mpdecimal (4.0.1)                          Verified    316.3KB/316.3KB
+✔︎ API Source openssl@3.rb                            Verified      7.4KB/  7.4KB
+✔︎ Formula openssl@3 (3.6.1)                          Verified     54.9MB/ 54.9MB
+✔︎ API Source readline.rb                             Verified      4.5KB/  4.5KB
+✔︎ Patch readline83-001                               Verified      1.8KB/  1.8KB
+✔︎ Patch readline83-002                               Verified      1.6KB/  1.6KB
+✔︎ Patch readline83-003                               Verified      2.3KB/  2.3KB
+✔︎ Formula readline (8.3.3)                           Verified      3.4MB/  3.4MB
+✔︎ API Source sqlite.rb                               Verified      3.4KB/  3.4KB
+✔︎ Formula sqlite (3.51.2)                            Verified      3.2MB/  3.2MB
+✔︎ API Source xz.rb                                   Verified      2.5KB/  2.5KB
+✔︎ Formula xz (5.8.2)                                 Verified      2.7MB/  2.7MB
+✔︎ Bottle Manifest lz4 (1.10.0)                       Downloaded   13.8KB/ 13.8KB
+✔︎ Bottle lz4 (1.10.0)                                Downloaded  308.5KB/308.5KB
+✔︎ API Source zstd.rb                                 Verified      3.6KB/  3.6KB
+✔︎ Formula zstd (1.5.7)                               Verified      2.5MB/  2.5MB
+✔︎ API Source lzip.rb                                 Verified      2.3KB/  2.3KB
+✔︎ Formula lzip (1.25)                                Verified    115.6KB/115.6KB
+✔︎ API Source expat.rb                                Verified      2.8KB/  2.8KB
+✔︎ Formula expat (2.7.4)                              Verified    505.7KB/505.7KB
+✔︎ API Source python@3.14.rb                          Verified     23.7KB/ 23.7KB
+✔︎ Resource python@3.14--flit-core                    Verified     53.7KB/ 53.7KB
+✔︎ Resource python@3.14--packaging                    Verified    143.4KB/143.4KB
+✔︎ Resource python@3.14--pip                          Verified      1.8MB/  1.8MB
+✔︎ Resource python@3.14--wheel                        Verified     60.6KB/ 60.6KB
+✔︎ Patch 3.13-sysconfig.diff                          Verified      1.8KB/  1.8KB
+✔︎ Formula python@3.14 (3.14.3)                       Verified     31.1MB/ 31.1MB
+✔︎ API Source sphinx-doc.rb                           Verified      7.0KB/  7.0KB
+✔︎ Resource sphinx-doc--alabaster                     Verified     24.2KB/ 24.2KB
+✔︎ Resource sphinx-doc--babel                         Verified     10.0MB/ 10.0MB
+✔︎ Resource sphinx-doc--charset-normalizer            Verified    129.4KB/129.4KB
+✔︎ Resource sphinx-doc--docutils                      Verified      2.3MB/  2.3MB
+✔︎ Resource sphinx-doc--idna                          Verified    194.6KB/194.6KB
+✔︎ Resource sphinx-doc--imagesize                     Verified      1.3MB/  1.3MB
+✔︎ Resource sphinx-doc--jinja2                        Verified    245.1KB/245.1KB
+✔︎ Resource sphinx-doc--markupsafe                    Verified     80.3KB/ 80.3KB
+✔︎ Resource sphinx-doc--numpydoc                      Verified     94.0KB/ 94.0KB
+✔︎ Resource sphinx-doc--packaging                     Verified    165.7KB/165.7KB
+✔︎ Resource sphinx-doc--pygments                      Verified      5.0MB/  5.0MB
+✔︎ Resource sphinx-doc--requests                      Verified    134.5KB/134.5KB
+✔︎ Resource sphinx-doc--roman-numerals                Verified      9.1KB/  9.1KB
+✔︎ Resource sphinx-doc--snowballstemmer               Verified    105.6KB/105.6KB
+✔︎ Resource sphinx-doc--sphinxcontrib-applehelp       Verified     20.1KB/ 20.1KB
+✔︎ Resource sphinx-doc--sphinxcontrib-devhelp         Verified     13.0KB/ 13.0KB
+✔︎ Resource sphinx-doc--sphinxcontrib-htmlhelp        Verified     22.6KB/ 22.6KB
+✔︎ Resource sphinx-doc--sphinxcontrib-jsmath          Verified      5.8KB/  5.8KB
+✔︎ Resource sphinx-doc--sphinxcontrib-qthelp          Verified     17.2KB/ 17.2KB
+✔︎ Resource sphinx-doc--sphinxcontrib-serializinghtml Verified     16.1KB/ 16.1KB
+✔︎ Resource sphinx-doc--urllib3                       Verified    435.6KB/435.6KB
+✔︎ Formula sphinx-doc (9.1.0)                         Verified      8.7MB/  8.7MB
+✔︎ API Source libuv.rb                                Verified      1.9KB/  1.9KB
+✔︎ Formula libuv (1.52.0)                             Verified      1.4MB/  1.4MB
+✔︎ API Source python@3.13.rb                          Verified     23.2KB/ 23.2KB
+✔︎ Formula python@3.13 (3.13.12)                      Verified     29.8MB/ 29.8MB
+✔︎ Formula node@20 (20.20.0)                          Verified     42.4MB/ 42.4MB
+Error: The following formula cannot be installed from bottle and must be
+built from source.
+  node@20
+Install the Command Line Tools:
+  xcode-select --install

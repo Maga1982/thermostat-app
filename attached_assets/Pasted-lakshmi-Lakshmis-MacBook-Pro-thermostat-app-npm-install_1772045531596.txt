@@ -1,0 +1,285 @@
+lakshmi@Lakshmis-MacBook-Pro thermostat-app % npm install -g appium && appium driver install chromium && appium
+
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'appium@3.2.0',
+npm WARN EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=24.0.0', npm: '>=10' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@appium/base-driver@10.2.0',
+npm WARN EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=24.0.0', npm: '>=10' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@appium/base-plugin@3.0.6',
+npm WARN EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=24.0.0', npm: '>=10' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@appium/docutils@2.2.1',
+npm WARN EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=24.0.0', npm: '>=10' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@appium/logger@2.0.4',
+npm WARN EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=24.0.0', npm: '>=10' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@appium/schema@1.0.1',
+npm WARN EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=24.0.0', npm: '>=10' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@appium/support@7.0.5',
+npm WARN EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=24.0.0', npm: '>=10' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@appium/types@1.2.0',
+npm WARN EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=24.0.0', npm: '>=10' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@sidvind/better-ajv-errors@4.0.1',
+npm WARN EBADENGINE   required: { node: '>= 18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'lru-cache@11.2.5',
+npm WARN EBADENGINE   required: { node: '20 || >=22' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'teen_process@4.0.8',
+npm WARN EBADENGINE   required: { npm: '>=10', node: '^20.19.0 || ^22.12.0 || >=24.0.0' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'type-fest@5.4.1',
+npm WARN EBADENGINE   required: { node: '>=20' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'asyncbox@6.0.1',
+npm WARN EBADENGINE   required: { npm: '>=10', node: '^20.19.0 || ^22.12.0 || >=24.0.0' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'body-parser@2.2.2',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'express@5.2.1',
+npm WARN EBADENGINE   required: { node: '>= 18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'package-directory@8.1.0',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'read-pkg@10.0.0',
+npm WARN EBADENGINE   required: { node: '>=20' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'yargs@18.0.0',
+npm WARN EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=23' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'yargs-parser@22.0.0',
+npm WARN EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=23' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@appium/tsconfig@1.1.1',
+npm WARN EBADENGINE   required: { node: '^20.19.0 || ^22.12.0 || >=24.0.0', npm: '>=10' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'get-stream@9.0.1',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'glob@13.0.0',
+npm WARN EBADENGINE   required: { node: '20 || >=22' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'log-symbols@7.0.1',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'supports-color@10.2.2',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'which@6.0.0',
+npm WARN EBADENGINE   required: { node: '^20.17.0 || >=22.9.0' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'content-disposition@1.0.1',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'finalhandler@2.1.1',
+npm WARN EBADENGINE   required: { node: '>= 18.0.0' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'merge-descriptors@2.0.0',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'mime-types@3.0.2',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'router@2.2.0',
+npm WARN EBADENGINE   required: { node: '>= 18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'send@1.2.1',
+npm WARN EBADENGINE   required: { node: '>= 18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'serve-static@2.2.1',
+npm WARN EBADENGINE   required: { node: '>= 18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'is-stream@4.0.1',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'minimatch@10.2.4',
+npm WARN EBADENGINE   required: { node: '18 || 20 || >=22' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'path-scurry@2.0.2',
+npm WARN EBADENGINE   required: { node: '18 || 20 || >=22' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'is-unicode-supported@2.1.0',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'yoctocolors@2.1.2',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'brace-expansion@5.0.3',
+npm WARN EBADENGINE   required: { node: '18 || 20 || >=22' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'balanced-match@4.0.4',
+npm WARN EBADENGINE   required: { node: '18 || 20 || >=22' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'find-up-simple@1.0.1',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'normalize-package-data@8.0.0',
+npm WARN EBADENGINE   required: { node: '^20.17.0 || >=22.9.0' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'parse-json@8.3.0',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'unicorn-magic@0.3.0',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'hosted-git-info@9.0.2',
+npm WARN EBADENGINE   required: { node: '^20.17.0 || >=22.9.0' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'index-to-position@1.2.0',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'tagged-tag@1.0.0',
+npm WARN EBADENGINE   required: { node: '>=20' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'color@5.0.3',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'color-string@2.1.4',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'cliui@9.0.1',
+npm WARN EBADENGINE   required: { node: '>=20' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'string-width@7.2.0',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'wrap-ansi@9.0.2',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'get-east-asian-width@1.5.0',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.13.1', npm: '8.1.2' }
+npm WARN EBADENGINE }
+npm ERR! code EACCES
+npm ERR! syscall rename
+npm ERR! path /usr/local/lib/node_modules/appium
+npm ERR! dest /usr/local/lib/node_modules/.appium-cfBVovI6
+npm ERR! errno -13
+npm ERR! Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/appium' -> '/usr/local/lib/node_modules/.appium-cfBVovI6'
+npm ERR!  [Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/appium' -> '/usr/local/lib/node_modules/.appium-cfBVovI6'] {
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'rename',
+npm ERR!   path: '/usr/local/lib/node_modules/appium',
+npm ERR!   dest: '/usr/local/lib/node_modules/.appium-cfBVovI6'
+npm ERR! }
+npm ERR! 
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It is likely you do not have the permissions to access this file as the current user
+npm ERR! 
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/lakshmi/.npm/_logs/2026-02-25T18_51_12_757Z-debug.log
